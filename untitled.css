@@ -1,47 +1,392 @@
    body{
-        background-color: black;
         font-family: helvetica;
     }
 
-    #Images > boop{
-        background-color: white;
+
+
+    a:link{
+        color: #999999;
+        font-size: 10px;
+        font-weight: bold !important;
+        text-decoration: none !important;
     }
 
-    #boop{
-        width:200px;
-        height: 32px;
-        background-color: green;
-        text-decoration: bold;
-        margin: 5px;
-        text-align: center;
-        vertical-align: middle;
-        line-height: 32px;
-        color: white;
-
+    a:hover{
+        color: #000;
+        text-decoration: none !important;
     }
 
-    #beep{
-        width:200px;
-        height: 200px;
-
-    }
-    #headercopy{
-        background-color: gray;
-        padding: 10px;
-        margin: 10px, 0px, 10px; 
-        font-size: 24px;
-        text-align: center;  
+    a:active{
+        color: #000 !important;
+        text-decoration: none !important;
     }
 
-    #bodycopy{
-        background-color: white;
-        padding: 20px;
+
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        float: left;
         color: black;
-        font-size: 10pt;
+        font-weight: 700;
+        font-size: 2em;
+        margin-top: 0.25em;
+        margin-left: 0.5em;
+    }
 
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        color: white !important;
+        font-weight: 400;
+        font-size: 1.65em !important;
+        margin-top: 5%;
+        margin-left: 6%;
+        margin-right: 6%;
+        margin-bottom: 3%;
+    }
+
+    h3{
+        font-family: 'Montserrat', sans-serif;
+        color: #339aad !important;
+        font-weight: 400;
+        font-size: 1.25em !important;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+
+    h4{
+        font-family: helvetica;
+        color: white;
+        font-weight: lighter;
+        font-size: 0.75em;
+        line-height: 250%;
+    }
+
+    h5{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-weight: 400;
+        font-size: 1em;
+        text-align: left;
+        float: left;
+        margin-right: 14.5%;
+    }
+
+    h6{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-weight: 400;
+        font-size: 0.5em;
+        text-align: right;
+        float: right;
+        }
+
+
+    .headerwrapper{
+        background-color: white;
+        opacity: 50%;
+        height: 5em;
+        margin: 0px, 0px, 0px, 0px;
+        padding-top: 1.25em;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
+    .menuwrapper{
+        margin-left: 28%;
+    }
+
+
+    #logo{
+        float: left;
+    }
+
+
+    .menuitems{
+        margin-left: 2%;
+        margin-top: 2.5%;
+        float: left;
+    }
+
+
+    .signin{
+        font-size: 10px;
+        color: #FFF;
+        font-weight: bold;
+        text-decoration: bold !important;
+        background-color: #40c1d8;
+        height: 24px;
+        width: 56px;
+        float: right;
+        border-radius: 3px;
+        margin-left: 0.33em;
+        margin-top: 16px;
+        border-style: none;
+        box-shadow: 0px 2px 1px #339aad;
 
     }
 
-    .Text{
-        background-color:#413659;
+    .signin:hover{
+        font-size: 10px;
+        color: #FFF;
+        font-weight: bold;
+        text-decoration: bold !important;
+        background-color: #339aad;
+        height: 24px;
+        width: 56px;
+        float: right;
+        border-radius: 3px;
+        margin-left: 0.33em;
+        margin-top: 17px;
+        border-style: none;
+        box-shadow: 0px 1px 1px #267482;
     }
+
+
+    .signup{
+        font-size: 10px;
+        color: #FFF;
+        font-weight: bold;
+        text-decoration: bold !important;
+        background-color: #3b5997;
+        height: 24px;
+        width: 56px;
+        float: right;
+        border-radius: 3px;
+        margin-left: 0.33em;
+        margin-top: 16px;
+        border-style: none;
+        box-shadow: 0px 2px 1px #2f4779;
+
+    }
+
+    .signup:hover{
+        font-size: 10px;
+        color: #FFF;
+        font-weight: bold;
+        text-decoration: bold !important;
+        background-color: #2f4779;
+        height: 24px;
+        width: 56px;
+        float: right;
+        border-radius: 3px;
+        margin-left: 0.33em;
+        margin-top: 17px;
+        border-style: none;
+        box-shadow: 0px 1px 1px #273a62;
+
+    }
+
+
+    .button-big{
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        text-decoration: bold !important;
+        background-color: #d04d4d;
+        height: 48px;
+        width: 196px;
+        float: right;
+        border-radius: 3px;
+        margin-left: 0.33em;
+        margin-top: 16px;
+        border-style: none;
+        box-shadow: 0px 4px 1px #a63e3e;
+    }
+
+    .button-big:hover{
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        text-decoration: bold !important;
+        background-color: #a63e3e;
+        height: 48px;
+        width: 196px;
+        float: right;
+        border-radius: 3px;
+        margin-left: 0.33em;
+        margin-top: 18px;
+        border-style: none;
+        box-shadow: 0px 2px 1px #7d2e2e;
+
+    }
+
+
+    .bodywrapper1{
+        background-color: #38b7a1;
+        margin-top: 1%;
+        padding-top: 3%;
+        padding-bottom: 12%;
+        padding-left: 12%;
+        text-align: right;
+    }
+
+
+    .bodywrapper2{
+        background-color: #40c1d8;
+        padding-top: 3%;
+        padding-bottom: 60%;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        text-align: center;
+    }
+
+
+    .bodywrapper3{
+        background-color: #3b5997;
+        padding-top: 3%;
+        padding-bottom: 10%;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        text-align: center;
+    }
+
+
+    .bodywrapper3b{
+        text-align: left;
+        padding-left: 7.5%;
+        padding-top: 20%;
+        padding-right: 7.5%;
+    }
+
+
+    .footer{
+        background-color: #333333;
+        padding-top: 3%;
+        padding-bottom: 5%;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        text-align: left;
+    }
+
+
+    .footerlinks{
+        color: #999999;
+        font-size: 10px;
+        font-weight: bold !important;
+        text-decoration: none !important;
+        margin-right: 5%;
+        float: left;
+    }
+
+
+    .profile{
+        width: 310px;
+        padding-left: 2%;
+        padding-right: 2%;
+        float: left;
+    }
+
+
+    .profilepic{
+        margin: 5%;
+    }
+
+
+    .button-mid{
+        font-size: 12px;
+        color: white;
+        font-weight: bold;
+        text-decoration: bold !important;
+        background-color: #3b5997;
+        height: 42px;
+        width: 128px;
+        float: center;
+        border-radius: 3px;
+        margin-top: 16px;
+        border-style: none;
+        box-shadow: 0px 4px 1px #2f4779;
+
+    }
+
+    .button-mid:hover{
+        font-size: 12px;
+        color: white;
+        font-weight: bold;
+        text-decoration: bold !important;
+        background-color: #2f4779;
+        height: 42px;
+        width: 128px;
+        float: center;
+        border-radius: 3px;
+        margin-top: 18px;
+        border-style: none;
+        box-shadow: 0px 2px 1px #273a62;
+
+    }
+
+
+    .fieldbox{
+        color: #CCC;
+        font-size: 12px;
+        padding-left: 20px;
+        border-style: none;
+        height: 50px;
+        width: 320px;
+        background-color: white;
+        border-radius: 3px;
+        margin-top: 16px;
+        margin-right: 8px;
+        float: left;
+    }
+
+
+    .button-mid-teal{
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        text-decoration: bold !important;
+        background-color: #38b7a1;
+        height: 48px;
+        width: 180px;
+        border-radius: 3px;
+        margin-top: 16px;
+        border-style: none;
+        box-shadow: 0px 4px 1px #2d9281;
+
+    }
+
+    .button-mid-teal:hover{
+        font-size: 16px;
+        color: white;
+        font-weight: bold;
+        text-decoration: bold !important;
+        background-color: #2d9281;
+        height: 48px;
+        width: 180px;
+        border-radius: 3px;
+        margin-top: 18px;
+        border-style: none;
+        box-shadow: 0px 2px 1px #2d9281;
+
+    }
+
+
+    #home{
+        height: 750px;
+        float: left;
+    }
+
+
+    #hand{
+        height: 650px;
+        float: right;
+        margin-left: 5%;
+    }
+
+
+    .appicons{
+        margin-top: 4em;
+        float: left;
+    }
+
+
+    .icons{
+        margin-right: 5em;
+        float: left;
+    }
+
+
+
+
+
+
