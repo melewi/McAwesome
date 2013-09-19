@@ -21,6 +21,11 @@
         text-decoration: none !important;
     }
 
+    a:visited{
+        color: #000 !important;
+        text-decoration: none !important;
+    }
+
 
     h1{
         font-family: 'Montserrat', sans-serif;
@@ -126,18 +131,8 @@
     }
 
     .signin:hover{
-        font-size: 10px;
-        color: #FFF;
-        font-weight: bold;
-        text-decoration: bold !important;
         background-color: #339aad;
-        height: 24px;
-        width: 56px;
-        float: right;
-        border-radius: 3px;
-        margin-left: 0.33em;
         margin-top: 17px;
-        border-style: none;
         box-shadow: 0px 1px 1px #267482;
     }
 
@@ -160,18 +155,8 @@
     }
 
     .signup:hover{
-        font-size: 10px;
-        color: #FFF;
-        font-weight: bold;
-        text-decoration: bold !important;
         background-color: #2f4779;
-        height: 24px;
-        width: 56px;
-        float: right;
-        border-radius: 3px;
-        margin-left: 0.33em;
         margin-top: 17px;
-        border-style: none;
         box-shadow: 0px 1px 1px #273a62;
 
     }
@@ -194,18 +179,8 @@
     }
 
     .button-big:hover{
-        font-size: 16px;
-        color: white;
-        font-weight: bold;
-        text-decoration: bold !important;
         background-color: #a63e3e;
-        height: 48px;
-        width: 196px;
-        float: right;
-        border-radius: 3px;
-        margin-left: 0.33em;
         margin-top: 18px;
-        border-style: none;
         box-shadow: 0px 2px 1px #7d2e2e;
 
     }
@@ -246,6 +221,7 @@
         padding-left: 7.5%;
         padding-top: 20%;
         padding-right: 7.5%;
+
     }
 
 
@@ -267,6 +243,7 @@
         margin-right: 5%;
         float: left;
     }
+
 
 
     .profile{
@@ -299,28 +276,19 @@
     }
 
     .button-mid:hover{
-        font-size: 12px;
-        color: white;
-        font-weight: bold;
-        text-decoration: bold !important;
         background-color: #2f4779;
-        height: 42px;
-        width: 128px;
-        float: center;
-        border-radius: 3px;
         margin-top: 18px;
-        border-style: none;
         box-shadow: 0px 2px 1px #273a62;
 
     }
 
 
     .fieldbox{
-        color: #CCC;
+        color: #000;
         font-size: 12px;
         padding-left: 20px;
         border-style: none;
-        height: 50px;
+        height: 52px;
         width: 320px;
         background-color: white;
         border-radius: 3px;
@@ -340,23 +308,17 @@
         width: 180px;
         border-radius: 3px;
         margin-top: 16px;
+        margin-bottom: 2px;
         border-style: none;
         box-shadow: 0px 4px 1px #2d9281;
 
     }
 
     .button-mid-teal:hover{
-        font-size: 16px;
-        color: white;
-        font-weight: bold;
-        text-decoration: bold !important;
         background-color: #2d9281;
-        height: 48px;
-        width: 180px;
-        border-radius: 3px;
         margin-top: 18px;
-        border-style: none;
-        box-shadow: 0px 2px 1px #2d9281;
+        margin-bottom: 0px;
+        box-shadow: 0px 2px 1px #196457;
 
     }
 
